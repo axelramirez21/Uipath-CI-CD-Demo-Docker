@@ -30,7 +30,7 @@ stages:
         command: buildAndPush
         repository: $(repositoryName)
         dockerfile: $(dockerfilePath)
-        containerRegistry: $(containerRegistry)
+        containerRegistry: $(uipathjenkinsdemo)
         tags: |
           $(tag)
           latest
